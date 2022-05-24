@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App do Dinheiro</string>
+    <string name="DescricaoIconeApp">Icone do Aplicativo</string>
+    <string-array name="tipos">
+        <item>Meta</item>
+        <item>Despesa</item>
+        <item>Receita</item>
+    </string-array>
+</resources>

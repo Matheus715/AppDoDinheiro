@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.appdodinheiro">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/main_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppDoDinheiro"
+        tools:targetApi="31">
+        <activity
+            android:name="br.com.appdodinheiro.ui.activity.MetasActivity"
+            android:exported="false" />
+        <activity
+            android:name="br.com.appdodinheiro.ui.activity.ReceitasActivity"
+            android:exported="false" />
+        <activity
+            android:name="br.com.appdodinheiro.ui.activity.DespesasActivity"
+            android:exported="false" />
+        <activity
+            android:name="br.com.appdodinheiro.ui.activity.FormularioActivity"
+            android:exported="false" />
+        <activity
+            android:name="br.com.appdodinheiro.ui.activity.ExtratoActivity"
+            android:exported="false" />
+        <activity
+            android:name="br.com.appdodinheiro.ui.activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
